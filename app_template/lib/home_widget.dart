@@ -25,7 +25,7 @@ class _HomeState extends State<Home> {
       ),
       body: _children[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
-        type: BottomNavigationBarType.fixed,
+        type: BottomNavigationBarType.fixed, // For >3 tabs
         onTap: onTabTapped,
         currentIndex: _currentIndex,
         items: [
